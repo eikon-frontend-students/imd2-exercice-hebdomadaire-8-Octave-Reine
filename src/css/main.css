@@ -12,3 +12,67 @@ img,
 video {
   display: block;
 }
+
+body {
+  margin: 0;
+  background: #ffffff;
+  padding: 30px;
+}
+
+.card {
+  width: 460px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px 25px 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0;
+}
+
+.item-img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.item-text {
+  flex: 1;
+}
+
+.item-name {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.item-sub {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.item-price {
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.checkout {
+  width: 100%;
+  margin-top: 22px;
+  padding: 22px;
+  border: none;
+  border-radius: 40px;
+  background: #08003a;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  opacity: 0.9;
+}
